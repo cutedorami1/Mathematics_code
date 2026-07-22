@@ -75,7 +75,15 @@ py --version
 
 Python 버전이 표시되지 않는다면 Python을 먼저 설치해야 합니다.
 
-### 2. pip 업그레이드
+###2. 설치해야하는 라이브러리
+
+| Python 3.10 이상 
+| SymPy         
+| NumPy          
+| Matplotlib  
+| tkinter   
+
+### 3. pip 업그레이드
 
 ```bash
 python -m pip install --upgrade pip
@@ -87,7 +95,7 @@ Windows에서 `python` 명령어가 동작하지 않고 `py`가 동작한다면 
 py -m pip install --upgrade pip
 ```
 
-### 3. 필요한 라이브러리 설치
+### 4. 필요한 라이브러리 설치
 
 ```bash
 python -m pip install -r requirements.txt
